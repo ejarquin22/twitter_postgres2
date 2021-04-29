@@ -16,6 +16,7 @@ import zipfile
 import io
 import simplejson as json
 
+
 # create database connection
 engine = sqlalchemy.create_engine(args.db, connect_args={
     'application_name': 'load_tweets.py',
